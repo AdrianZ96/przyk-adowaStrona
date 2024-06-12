@@ -7,29 +7,46 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./about.html">About</a></li>
-          <li><a href="./contact.html">Contact</a></li>
-          <li><a href="./login.html">Login</a></li>
+    <header class="header">
+      <h1 class="site-title">Moja Strona</h1>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="./index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="./about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="./index.html" class="nav-link">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="./login.html" class="nav-link">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a href="./contact.html" class="nav-link">Contact</a>
+          </li>
         </ul>
       </nav>
     </header>
     <main>
       <h1>Login</h1>
-      <form id="loginForm">
-        <label for="username">Nazwa Użytkownika</label>
-        <input type="text" name="username" id="username" required />
-        <br />
-        <label for="password">Hasło</label>
-        <input type="password" name="password" id="password" required />
-        <br />
-        <button type="submit">Zaloguj się</button>
-      </form>
+      <section id="testimonials" class="section testimonials-section">
+        <h2 class="section-title">Testimonials</h2>
+        <div class="testimonials-content">
+          <blockquote class="testimonial">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </blockquote>
+          <blockquote class="testimonial">
+            Praesent vel risus vitae justo viverra interdum.
+          </blockquote>
+          <blockquote class="testimonial">
+            Suspendisse potenti. Phasellus vel urna id turpis gravida.
+          </blockquote>
+        </div>
+      </section>
     </main>
-    <footer>
+    <footer class="footer">
       <p>&copy; 2024 Przykładowa Strona</p>
     </footer>
     <script src="./app.js"></script>

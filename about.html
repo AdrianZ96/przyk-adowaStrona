@@ -7,21 +7,38 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./about.html">About</a></li>
-          <li><a href="./contact.html">Contact</a></li>
-          <li><a href="./login.html">Login</a></li>
+    <header class="header">
+      <h1 class="site-title">Moja Strona</h1>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="./index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="./about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="./index.html" class="nav-link">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="./login.html" class="nav-link">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a href="./contact.html" class="nav-link">Contact</a>
+          </li>
         </ul>
       </nav>
     </header>
     <main>
-      <h1>O Nas!</h1>
-      <p>To jest strona o Nas!</p>
+      <section id="about" class="section about-section">
+        <h2 class="section-title">About Us</h2>
+        <p class="section-content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel
+          risus vitae justo viverra interdum.
+        </p>
+      </section>
     </main>
-    <footer>
+    <footer class="footer">
       <p>&copy; 2024 Przykładowa Strona</p>
     </footer>
     <script src="./app.js"></script>
